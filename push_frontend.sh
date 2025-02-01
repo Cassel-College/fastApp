@@ -18,10 +18,33 @@ NOW_PATH=$(pwd)
 echo "Now in $NOW_PATH ..."
 
 # 添加所有更改
-git add ./lib/*
-git add ./config/*
-git add ./pubspec.yaml
-git add ./README.md
+git add -f ./lib
+echo "git add ./lib"
+
+git add -f ./assets
+echo "git add ./assets"
+
+git add -f ./pubspec.yaml
+echo "git add ./pubspec.yaml"
+
+git add -f ./README.md
+echo "git add ./README.md"
+
+git add -f ../push_frontend.sh
+echo "git add ../push_frontend.sh"
+
+# 显示当前的 Git 状态
+echo "--------------------------------------------------------------------------------"
+git status
+echo "--------------------------------------------------------------------------------"
+
+# 询问用户是否继续执行
+read -p "Do you want to continue with the commit and push? (y/n): " CONTINUE
+
+if [ "$CONTINUE" != "y" ]; then
+    echo "Aborting the commit and push."
+    exit 1
+fi
 
 # 提交更改
 git commit -m "Update frontend code"
