@@ -1,0 +1,11 @@
+{
+    "scenraios": [
+        {
+            "code": "1",
+            "label_name": "场景一",
+            "group_name": "分组一",
+            "selected": false,
+            "disabled": false
+        }
+    ]
+}
