@@ -1,0 +1,28 @@
+{
+    "log_folder_path": "logs",
+    "source_folder_path": "source",
+    "input_file_name": "input.json",
+    "output_file_name": "output.json",
+    "user_info_file_name": "user_info.json",
+    "user_folder_name": "user_folder",
+    "step_log_file_name": "log.txt",
+    "script_engine": "python3",
+    "environment": "dev",
+    "dev_mode": {
+        "open": true,
+        "print_log_in_terminal": true
+    },
+    "gmini_setting": {
+        "model": "gemini-1.5-flash-latest",
+        "gmini_api_key": "AIzaSyDJFCqAxeu3hxvZatchxPrSwQmmtg1BZqo"
+    },
+    "open_ai_setting": {
+        "model": "gpt-3.5-turbo",
+        "open_ai_api_key": "sk-xxx"
+    },
+    "root_setting": {
+        "username": "",
+        "password_key": ""
+    },
+    "maximum_operating_time_interval": 120
+}

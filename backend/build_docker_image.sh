@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t fast_app_backend .
+docker build --no-cache -t fast_app_backend .

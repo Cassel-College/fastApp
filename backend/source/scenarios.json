@@ -1,0 +1,263 @@
+{
+    "scenarios": [
+        {
+            "code": "0",
+            "label_name": "白天",
+            "group_name": "自车行驶时间段",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "1",
+            "label_name": "黄昏/黎明",
+            "group_name": "自车行驶时间段",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "2",
+            "label_name": "夜间",
+            "group_name": "自车行驶时间段",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "3",
+            "label_name": "停车场",
+            "group_name": "自车行驶环境",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "4",
+            "label_name": "城区",
+            "group_name": "自车行驶环境",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "5",
+            "label_name": "城中村",
+            "group_name": "自车行驶环境",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "6",
+            "label_name": "高速公路",
+            "group_name": "自车行驶环境",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "7",
+            "label_name": "乡村道路",
+            "group_name": "自车行驶环境",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "8",
+            "label_name": "隧道",
+            "group_name": "自车行驶环境",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "9",
+            "label_name": "0-20 km/h",
+            "group_name": "自车行驶速度",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "10",
+            "label_name": "20-40 km/h",
+            "group_name": "自车行驶速度",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "11",
+            "label_name": "40-60 km/h",
+            "group_name": "自车行驶速度",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "12",
+            "label_name": "60-80 km/h",
+            "group_name": "自车行驶速度",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "13",
+            "label_name": "80-100 km/h",
+            "group_name": "自车行驶速度",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "14",
+            "label_name": "100 km/h以上",
+            "group_name": "自车行驶速度",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "15",
+            "label_name": "无交互",
+            "group_name": "与其他车辆的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "16",
+            "label_name": "跟车行驶",
+            "group_name": "与其他车辆的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "17",
+            "label_name": "变道超车",
+            "group_name": "与其他车辆的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "18",
+            "label_name": "汇入主路",
+            "group_name": "与其他车辆的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "19",
+            "label_name": "避让其他车辆",
+            "group_name": "与其他车辆的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "20",
+            "label_name": "无行人",
+            "group_name": "与行人的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "21",
+            "label_name": "行人穿越马路",
+            "group_name": "与行人的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "22",
+            "label_name": "行人在人行道",
+            "group_name": "与行人的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "23",
+            "label_name": "行人等待通行",
+            "group_name": "与行人的交互",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "24",
+            "label_name": "正常行驶",
+            "group_name": "自车行为",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "25",
+            "label_name": "快速绕过",
+            "group_name": "自车行为",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "26",
+            "label_name": "立即刹车",
+            "group_name": "自车行为",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "27",
+            "label_name": "减速礼让",
+            "group_name": "自车行为",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "28",
+            "label_name": "直行",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "29",
+            "label_name": "左转",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "30",
+            "label_name": "右转",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "31",
+            "label_name": "掉头",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "32",
+            "label_name": "靠左行驶",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "33",
+            "label_name": "靠右行驶",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "34",
+            "label_name": "汇入主路",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "35",
+            "label_name": "避让汇入",
+            "group_name": "导航需求",
+            "selected": false,
+            "disabled": false
+        },
+        {
+            "code": "36",
+            "label_name": "分叉路向左行驶",
+            "group_name": "路口",
+            "selected": false,
+            "disabled": false
+        }
+    ]
+}
